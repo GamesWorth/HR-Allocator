@@ -5,7 +5,6 @@ import java.util.*;
 public class Logs {
 	public List<Report> reports;//list of past reports
 	
-	
 	public Logs() {//constructor creates new list
 		reports=new ArrayList<Report>();
 	}
