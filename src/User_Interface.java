@@ -65,8 +65,7 @@ public class User_Interface{
 			else
 				System.out.print("Password Rejected");
 			}while(loop==true);
-		
-		scan.reset();
+
 	}
 	public void CreateRequest() {
 		//process of creating a job assignment request
