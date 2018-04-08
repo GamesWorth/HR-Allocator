@@ -29,7 +29,7 @@ public class User_Interface{
 		//get password(login function from account)
 	}
 	public void CreateRequest() {
-		//process of creating a job assignment request
+		//process of creating a job assignment request	
 	}
 	public void CreateReport() {
 		//generates a report of system
