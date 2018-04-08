@@ -22,9 +22,16 @@ public class User_Interface{
 	}
 	public void ShowRequests(RequestHandler requestHandler) {
 		//formats requests for current account
-		//test
-		//test 2
-		//test 3 xD
+		//Method completed by George Korovinis s3658218
+		System.out.println("Here is a list of all the requests: ");
+				
+		String[] RequestList = new String[] {"Job", "Staff", "Id"};
+				
+		for(int i=0;i<RequestList.size();i++) {
+			System.out.println(RequestList.get(i));
+		}
+				
+				
 	}
 	public void login() {
 		//walk through the login process
