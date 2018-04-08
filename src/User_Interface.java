@@ -15,7 +15,17 @@ public class User_Interface{
 	}
 	
 	public void ShowSchedual(Schedual schedual) {
-		//formats schedual into readable data
+		Scanner scan = new Scanner(System.in);  // Reading from System.in
+		boolean loopS = true;
+		do {
+			String n = scan.next();
+		if (n.contains("Schedual")){
+		System.out.print(schedual);
+		loopS = false;
+		}else{
+			System.out.print("Enter a valid request");
+		}
+		}while (loopS==true);
 	}
 	public void ShowTimetable(Staff staff) {
 		//formats timetable for current account
