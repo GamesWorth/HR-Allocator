@@ -12,6 +12,7 @@ public class RequestHandler {
 		//notifies staff of the assignment
 	}
 	public Request searchRequest(int query) {
+		return null;
 		//searches requests for one with specific id
 	}
 	public void notifyCoordinator(String messege, Request request) {
