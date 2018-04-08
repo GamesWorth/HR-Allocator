@@ -3,8 +3,13 @@ import accounts.*;
 public class Application {
 
 	public static void main(String[] args) {
-	Admin testAdmin=new Admin("login","pword");
-	testAdmin.login("pword");
 	User_Interface system=new User_Interface();
+	system.accounts.addAccount(new Admin("login","pword"));
+	system.accounts.addAccount(new Staff("staff","pword"));
+	for(Account account:system.accounts.accounts)
+	{
+		System.out.println(account._Login);
+	}
+	system.login();
 	}
 }
