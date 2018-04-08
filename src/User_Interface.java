@@ -70,15 +70,6 @@ public class User_Interface{
 	}
 	public void CreateRequest() {
 		//process of creating a job assignment request
-		Scanner scan = new Scanner(System.in);
-		String n = scan.next();
-		if (n.contains("CretReq")){
-			System.out.print("Requests!");
-			n = scan.next();
-		}else{
-			System.out.print("yay!");
-		}
-		
 		
 	}
 	public void CreateReport() {
