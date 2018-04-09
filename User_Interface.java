@@ -24,6 +24,7 @@ public class User_Interface{
 		//formats requests for current account
 		//Method completed by George Korovinis s3658218
 		System.out.println("Here is a list of all the requests: ");
+<<<<<<< HEAD
 		
 		String[] RequestList = new String[] {"Job", "Staff", "Id"};
 		
@@ -32,6 +33,16 @@ public class User_Interface{
 		}
 		
 		
+=======
+				
+		String[] RequestList = new String[] {"Job", "Staff", "Id"};
+				
+		for(int i=0;i<RequestList.size();i++) {
+			System.out.println(RequestList.get(i));
+		}
+				
+				
+>>>>>>> 9ae58ee084ccff46c4cade7ae329a6f580b04f72
 	}
 	public void login() {
 		//walk through the login process
