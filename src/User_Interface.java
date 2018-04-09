@@ -15,6 +15,7 @@ public class User_Interface{
 	
 	public User_Interface() {
 		StartUp();
+		//lmao dudes
 	}
 	
 	public void ShowSchedual(Schedual schedual) {
